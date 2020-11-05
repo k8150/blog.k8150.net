@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo --buildDrafts --gc"
+command = "hugo --buildDrafts --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.77.0"
@@ -28,3 +28,6 @@ HUGO_VERSION = "0.77.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[minify]
+disableJSON = true
