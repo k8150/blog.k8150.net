@@ -1,0 +1,59 @@
+title: BLOG/K8150.NET
+paginate: 10
+theme: hugo-PaperMod
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archives
+          url: /archives/
+          weight: 5
+
+params:
+  description: ""
+  author: koji haigo
+  # author: ["Me", "You"] # multiple authors
+  ShowReadingTime: true
+  defaultTheme: auto
+  ShowShareButtons: true
+  displayFullLangName: true
+  # images: ""
+  # assets:
+  #   favicon: '<path / external url>'
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      Welcome to demo of hugo's theme PaperMod.
+      - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/k8150_"
+    - name: github
+      url: "https://github.com/k8150"
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
