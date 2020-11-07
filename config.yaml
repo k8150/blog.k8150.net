@@ -57,6 +57,3 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
-
-minify:
-  disableJSON: true
