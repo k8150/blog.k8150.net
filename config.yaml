@@ -1,3 +1,4 @@
+baseUrl: "/"
 title: BLOG/K8150.NET
 paginate: 10
 theme: hugo-PaperMod
