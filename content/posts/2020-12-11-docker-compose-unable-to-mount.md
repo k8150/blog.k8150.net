@@ -8,7 +8,7 @@ tags: ["Docker"]
 
 ## 事象
 
-Docker3.0.0にアップデートを行った後、`docker-compose up -d`をすると下記エラーが発生し、起動に失敗するようになった。
+Docker3.0.0にアップデートを行った後、`docker-compose up -d`をすると下記エラーが発生し、起動に失敗するようになった。  
 対象ディレクトリのマウントに失敗している。
 
 ```log
@@ -24,15 +24,13 @@ ERROR: Encountered errors while bringing up the project.
 
 ## 対処
 
-[docker/for-mac](https://github.com/docker/for-mac)のIssuesに同様事象が上がっていた。
-
-https://github.com/docker/for-mac/issues/5115
-
+[docker/for-mac](https://github.com/docker/for-mac)のIssuesに同様事象が上がっていた。  
+https://github.com/docker/for-mac/issues/5115  
 Dockerデスクトップの設定から`Use gRPC FUSE for file sharing`をオフにする。
 
-![Dockerデスクトップ設定](img/ss-2020-12-11-21.33.42.png)
-
-- 参考にしたコメント
-https://github.com/docker/for-mac/issues/5115#issuecomment-743091322
+![](img/ss-2020-12-11-21.33.42.png)
 
 今後アップデートで修正されるだろう。
+
+- 参考にしたコメント  
+https://github.com/docker/for-mac/issues/5115#issuecomment-743091322
