@@ -30,7 +30,7 @@ https://github.com/docker/for-mac/issues/5115
 
 Dockerデスクトップの設定から`Use gRPC FUSE for file sharing`をオフにする。
 
-![Dockerデスクトップ設定](./img/ss-2020-12-11-21.33.42.png)
+![Dockerデスクトップ設定](img/ss-2020-12-11-21.33.42.png)
 
 - 参考にしたコメント
 https://github.com/docker/for-mac/issues/5115#issuecomment-743091322
