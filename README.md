@@ -2,5 +2,5 @@
 
 ```sh
 # サーバ起動
-$ hugo s -D
+$ hugo server -D
 ```
